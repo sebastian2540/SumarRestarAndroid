@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SumarRestarNumeros</string>
+    <string name="text_principal">Sumar o Restar Numeros</string>
+    <string name="primer_numero">Primer numero</string>
+    <string name="segundo_numero">Segundo numero</string>
+    <string name="resultado">Resultado</string>
+    <string name="boton_sumar">Sumar</string>
+    <string name="boton_restar">Restar</string>
+</resources>
