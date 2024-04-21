@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements
         View.OnClickListener {
     EditText et1, et2;
     TextView tv1;
-    Button btnsuma, btnresta;
+    Button btnsuma, btnresta, btnmultiplicar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity implements
 
         btnresta=(Button) findViewById(R.id.btnrestar);
         btnresta.setOnClickListener(this);
+
+        btnmultiplicar=(Button) findViewById(R.id.btnmultiplicar);
+        btnmultiplicar.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -45,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements
             tv1.setText("El resultado es: " + res);
         } else if (v.getId() == R.id.btnrestar){
             res=n1-n2;
+            tv1.setText("El resultado es: " + res);
+        } else if (v.getId() == R.id.btnmultiplicar){
+            res=n1*n2;
             tv1.setText("El resultado es: " + res);
         }
         //Toast.makeText(getApplicationContext(), "Ha Presionado el boton",Toast.LENGTH_SHORT).show();

@@ -6,4 +6,5 @@
     <string name="resultado">Resultado</string>
     <string name="boton_sumar">Sumar</string>
     <string name="boton_restar">Restar</string>
+    <string name="boton_multiplicar">Multiplicar</string>
 </resources>
